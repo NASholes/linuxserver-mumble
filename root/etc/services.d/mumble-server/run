@@ -1,0 +1,6 @@
+#!/usr/bin/with-contenv bash
+
+umask 022
+
+exec s6-setuidgid abc /usr/sbin/murmurd \
+     -ini /data/mumble-server.ini
