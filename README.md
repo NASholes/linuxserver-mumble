@@ -3,6 +3,10 @@
 This project implements a mumble-server using the LinuxServer.io base image.
 If you're interested in running a mumble-server on a NAS, this is what you want.
 
+## ⚠️**DEPRECATION WARNING**⚠️
+
+This project has been deprecated in favor of [quay.io/jzelinskie/murmur](https://quay.io/jzelinskie/murmur), which is Alpine Linux based and much smaller.
+
 ## Usage
 
 ```
